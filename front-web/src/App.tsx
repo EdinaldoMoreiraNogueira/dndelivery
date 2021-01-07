@@ -1,9 +1,11 @@
+import React from 'react';
 import './App.css';
+import Navibar from './Navibar';
 
 function App() {
   return (
     <div >
-     <h1>DEUS É SUPREMO</h1>
+     <Navibar/>
     </div>
   );
 }
