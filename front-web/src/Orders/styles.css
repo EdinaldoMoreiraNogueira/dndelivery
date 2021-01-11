@@ -184,13 +184,13 @@
     color: var(--secondary-color);
   }
   
-  .order-summary-containe {
+  .order-summary-container {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
   }
   
-  .order-summary-contenty {
+  .order-summary-content {
     width: calc(70% - 40px);
     display: flex;
     justify-content: space-between;

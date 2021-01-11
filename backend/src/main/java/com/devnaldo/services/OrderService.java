@@ -19,7 +19,7 @@ import com.devnaldo.repositories.ProductRepository;
 @Service
 public class OrderService {
 	
-	@Autowired
+	@Autowired(required=true)
 	private OrderRepository repository;
 	
 	@Autowired

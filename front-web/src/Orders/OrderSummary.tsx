@@ -9,8 +9,8 @@ type Props = {
 
 function OrderSummary({amount, totalPrice, onSubmit }:Props) {
     return (
-        <div className="order-summary-containe">
-            <div className="order-summary-contenty">
+        <div className="order-summary-container">
+            <div className="order-summary-content">
                 <div>
                 <span className="amount-selected-container">
                     <strong className="amount-selected">{amount}</strong>
